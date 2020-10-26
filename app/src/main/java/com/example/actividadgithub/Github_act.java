@@ -34,13 +34,19 @@ public class Github_act extends AppCompatActivity {
         String opcion = spin.getSelectedItem().toString();
 
         if (opcion.equals("Cristiano Ronaldo")){
-            text1.setText("El valor de Cristiano ronaldo es de : $115.6 millones de dolares");
+            text1.setText("El valor de Cristiano ronaldo es de : $126.4 millones de dolares");
         }
         if (opcion.equals("Ronaldo")){
-            text1.setText("El valor de Ronaldo es: $55.7 millones de dolares");
+            text1.setText("El valor de Ronaldo es: $68.1 millones de dolares");
         }
         if(opcion.equals("Roberto Carlos")){
-            text1.setText("El valor de Roberto Carlos es: $15.7 millones de dolares");
+            text1.setText("El valor de Roberto Carlos es: $15.4 millones de dolares");
+        }
+        if(opcion.equals("Zamorano")){
+            text1.setText("El valor de Zamorano es: $5.6 millones de dolares");
+        }
+        if(opcion.equals("Rivaldo")){
+            text1.setText("El valor de Rivaldo es: $33.7 millones de dolares");
         }
 
 
