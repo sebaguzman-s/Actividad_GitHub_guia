@@ -78,7 +78,8 @@ public class MainActivity extends AppCompatActivity {
         jugadores.add("Cristiano Ronaldo");
         jugadores.add("Ronaldo");
         jugadores.add("Roberto Carlos");
-
+        jugadores.add("Zamorano");
+        jugadores.add("Rivaldo");
 
 
 
