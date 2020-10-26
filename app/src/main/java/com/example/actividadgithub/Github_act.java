@@ -42,12 +42,7 @@ public class Github_act extends AppCompatActivity {
         if(opcion.equals("Roberto Carlos")){
             text1.setText("El valor de Roberto Carlos es: $15.7 millones de dolares");
         }
-        if(opcion.equals("Rivaldo")){
-            text1.setText("El valor de Rivaldo es: $6.4 millones de dolares");
-        }
-        if(opcion.equals("Zamorano")){
-            text1.setText("El valor de Zamorano es: $39.6 millones de dolares");
-        }
+
 
 
 
