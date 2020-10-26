@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progres;
     private Button boton;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -72,13 +73,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Github(View v){
-        ArrayList<String> jugadores = new ArrayList<String>();
+        ArrayList<String> jugadores =  new ArrayList<String>();
 
         jugadores.add("Cristiano Ronaldo");
         jugadores.add("Ronaldo");
         jugadores.add("Roberto Carlos");
-        jugadores.add("Zamorano");
-        jugadores.add("Rivaldo");
+
 
 
 

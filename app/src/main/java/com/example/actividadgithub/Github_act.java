@@ -22,11 +22,10 @@ public class Github_act extends AppCompatActivity {
         spin = (Spinner)findViewById(R.id.spin);
         text1 = (TextView)findViewById(R.id.tv);
 
-        ArrayList<String> listaJugadores = (ArrayList<String>) getIntent().getSerializableExtra("listajugadoress");
+        ArrayList<String> listaJugadores = (ArrayList<String>) getIntent().getSerializableExtra("listajugadores");
 
         ArrayAdapter<String> adapt = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,listaJugadores);
         spin.setAdapter(adapt);
-
 
     }
     public void Mostrar(View v){
@@ -42,12 +41,7 @@ public class Github_act extends AppCompatActivity {
         if(opcion.equals("Roberto Carlos")){
             text1.setText("El valor de Roberto Carlos es: $15.4 millones de dolares");
         }
-        if(opcion.equals("Zamorano")){
-            text1.setText("El valor de Zamorano es: $5.6 millones de dolares");
-        }
-        if(opcion.equals("Rivaldo")){
-            text1.setText("El valor de Rivaldo es: $33.7 millones de dolares");
-        }
+
 
 
 
